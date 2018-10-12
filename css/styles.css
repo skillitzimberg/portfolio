@@ -62,12 +62,13 @@ ul.projectList {
 }
 
 .aboutMe {
-  width: 70%;
+  text-align: justify;
+  width: 95%;
 }
 
 .sidebar {
   float: right;
-  margin-right: 25px;
+  margin: 40px 20px 10px 50px;
 }
 
 .myemphasis {
