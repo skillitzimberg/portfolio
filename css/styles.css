@@ -50,8 +50,8 @@ a {
 #godot {
   width: 200px;
   border-radius: 50%;
-  float: left;
-  margin: 0 50px 50px 0;
+  display: block;
+  margin: 25px auto 0;
 }
 
 .sidebar {
@@ -71,6 +71,13 @@ a {
   color: #581908;
 }
 
+@media screen and (min-width: 1290px) {
+  .column {
+    width: 300px;
+    margin: 15px;
+    float: left;
+  }
+}
 
 @media screen and (max-width: 650px) {
 
