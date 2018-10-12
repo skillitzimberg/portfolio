@@ -1,4 +1,4 @@
-# Git, HTML, and CSS Independent Project
+# Portfolio
 
 #### Epicodus Week One Solo Project, 10.12.2018
 
@@ -9,30 +9,30 @@ This is a portfolio/personal website. It is the independent project for week one
 
 ## Objectives:
 ##### The following HTML tags are all used:
-- [ ] p
-- [ ] h
-- [ ] ul
-- [ ] ol
-- [ ] li
-- [ ] em
-- [ ] strong
-- [ ] a
-- [ ] img
-- [ ] div
-- [ ] span
+- [x] p
+- [x] h
+- [x] ul
+- [x] ol
+- [x] li
+- [x] em
+- [x] strong
+- [x] a
+- [x] img
+- [x] div
+- [x] span
 
 ##### Bootstrap classes are used to style the page:
 
-- [ ] This means explicitly using classes mentioned on this page, not just linking in the Bootstrap stylesheet;
+- [x] This means explicitly using classes mentioned on this page, not just linking in the Bootstrap stylesheet;
 
 ##### Project includes a custom-made stylesheet:
-- [ ] typography styles
-- [ ] cascading
-- [ ] the box model
-- [ ] floats
+- [x] typography styles
+- [x] cascading
+- [x] the box model
+- [x] floats
 
 ##### Code is clean, well-refactored, and easy-to-read:
-- [ ] correct indendation
+- [ ] correct indentation
 - [ ] spacing
 - [ ] including only necessary comments and debugging tools.
 
@@ -41,9 +41,9 @@ This is a portfolio/personal website. It is the independent project for week one
 - [ ] clear messages that finish the phrase "It will…"
 
 ##### The project repo contains a README that includes:
-- [ ] author name
-- [ ] project or program name
-- [ ] description of program
+- [x] author name
+- [x] project or program name
+- [x] description of program
 - [ ] program setup instructions
 - [ ] link to site on GitHub Pages
 - [ ] copyright and license information
@@ -57,17 +57,17 @@ This is a portfolio/personal website. It is the independent project for week one
 ## Commit Plan
 
 ##### Master branch:
-- [ ] Initial commit: directory & file setup
-- [ ] README.me plan for project
-- [ ] HTML template
-- [ ] Mockup content
+- [x] Initial commit: directory & file setup
+- [x] README.me plan for project
+- [x] HTML template
+- [x] Mockup content
 
 ##### Layout branch:
-- [ ] Normalize
-- [ ] Classes
-- [ ] Id's
+- [x] Normalize
+- [x] Classes
+- [x] Id's
 - [ ] Grids
-- [ ] Positioning
+- [x] Positioning
 - [ ] Media queries
 
 ##### Draft branches (could be multiple):
