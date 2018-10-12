@@ -75,7 +75,7 @@ This is a portfolio/personal website. It is the independent project for week one
 
 If you would like to work on the code, clone the repository at: [GitHub](https://github.com/skillitzimberg/portfolio).
 
-To view it online go to: 
+To view it online go to: [GitHub Pages](https://skillitzimberg.github.io/portfolio/).
 
 ## Known Bugs
 
