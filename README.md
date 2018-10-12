@@ -44,7 +44,7 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] author name
 - [x] project or program name
 - [x] description of program
-- [ ] program setup instructions
+- [x] program setup instructions
 - [ ] link to site on GitHub Pages
 - [ ] copyright and license information
 
@@ -68,35 +68,30 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] Id's
 - [ ] Grids
 - [x] Positioning
-- [ ] Media queries
+- [x] Media queries (non-fully operational)
 
 ##### Draft branches (could be multiple):
 
 I'm uncertain past this point. And all of the above may not be practicable anyway. We shall see . . .
 
-## Layout Plan/Ideas
-
-* Hero image in h1?
-* Projects sidebar?
-*
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+If you would like to work on the code, clone the repository at:
 
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+To view it online go to:
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+Media Queries:
+
+The page was written for 1280 x 800px screen. I attempted to refactor it with media queries to be as smooth as I could get it down to 480px wide.
+
+It still looks as I wanted it in 1280px wide, but the media queries are not good below 1130px wide (to be generous).
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+Contact the author at commandinghands@gmail.com.
 
 ## Technologies Used
 

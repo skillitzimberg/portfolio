@@ -3,15 +3,22 @@ body {
   padding-bottom: 40px;
 }
 
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
 .jumbotron {
-  height: 55vw;
   background-image: url("https://images.unsplash.com/photo-1516797045820-6edca89b2830?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=7ee9490bac752c3674694855720c6627&auto=format&fit=crop&w=500&q=60");
   background-size: cover;
   color: #eee;
 }
 
 .jumbotron h1 {
-  color: #eee;
   text-align: center;
   font-size: 100px;
 }
@@ -19,8 +26,23 @@ body {
 .jumbotron p {
   width: 70%;
   text-align: center;
-  margin: auto;
-  font-size: 30px;
+  margin: 2em auto 0;
+  font-size: 1.5em;
+}
+
+.jumbotron a {
+  color: #eee;
+}
+
+.jumbotron ul {
+  text-align: center;
+  font-size: 2em;
+  margin-top: 2em;
+}
+
+.jumbotron li {
+  display: inline;
+  margin: 20px;
 }
 
 #godot {
@@ -30,50 +52,77 @@ body {
   margin: 0 50px 50px 0;
 }
 
-.jumbotron ul {
-  list-style: none;
-  text-align: center;
-  font-size: 30px;
-  margin-top: 100px;
-}
-
-.jumbotron li {
-    display: inline;
-    margin: 20px;
-}
-
-.jumbotron a {
-  text-decoration: none;
-  color: #eee;
-}
-
-.jumbotron a:visited {
-  color: #eee;
-}
-
-ul.projectList {
-  list-style: none;
-  margin-left: 0px;
-}
-
-.projectList a {
-  color: #333;
-  text-decoration: none;
-}
-
-.aboutMe {
-  text-align: justify;
-  width: 95%;
-  margin: auto;
-}
-
-.sidebar {
-  float: right;
-  margin: 40px 20px 10px 50px;
-}
-
 .myemphasis {
   font-weight: bold;
   font-size: 1.25em;
   color: #581908;
+}
+
+
+@media screen and (min-width: 800px) {
+
+  .jumbotron {
+    height: 55vw;
+  }
+
+  .jumbotron ul {
+    font-size: 2em;
+    margin-top: 2em;
+  }
+
+  .jumbotron a:visited {
+    color: #eee;
+  }
+
+.projectList a {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .aboutMe {
+    text-align: justify;
+    width: 95%;
+    margin: auto;
+  }
+
+  .sidebar {
+    float: right;
+    margin: 40px 20px 10px 50px;
+  }
+}
+
+
+
+@media screen and (min-width: 480px) and (max-width: 800px) {
+
+  .jumbotron {
+    height: 120vw;
+    padding: 0;
+  }
+
+  .jumbotron h1 {
+    font-size: 50px;
+  }
+
+  .jumbotron p {
+    color: #eee;
+  }
+
+  .jumbotron a {
+    color: #eee;
+  }
+
+  .jumbotron a:visited {
+    color: #eee;
+  }
+
+  #godot {
+    width: 100%;
+    border-radius: 0;
+    margin: 25px 50px 20px 0;
+  }
+
+  .sidebar {
+    margin: 40px 20px 10px 50px;
+  }
 }
