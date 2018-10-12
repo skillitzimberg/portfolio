@@ -87,13 +87,11 @@ Media Queries:
 
 The page was written for 1280 x 800px screen. I attempted to refactor it with media queries to be as smooth as I could get it down to 480px wide.
 
-It still looks as I wanted it in 1280px wide, but the media queries are not good below 1130px wide (to be generous).
-
-Between 1130px and 800px wide it is broken. Above and below that range it's OK-ish.
+I don't understand how the ranges work. I can't see it in my head yet.
 
 ## Support and contact details
 
-Contact the author at commandinghands@gmail.com.
+Contact the author at [commandinghands@gmail.com](mailto:commandinghands@gmail.com).
 
 ## Technologies Used
 
@@ -101,6 +99,6 @@ Just the essentials: HTML, CSS, Bootstrap.
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+This project is licensed under the terms of the MIT license.
 
 Copyright (c) 2018 **_Scott Bergler_**
