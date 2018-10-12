@@ -64,6 +64,7 @@ ul.projectList {
 .aboutMe {
   text-align: justify;
   width: 95%;
+  margin: auto;
 }
 
 .sidebar {
