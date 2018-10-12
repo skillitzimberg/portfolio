@@ -57,18 +57,18 @@ This is a portfolio/personal website. It is the independent project for week one
 ## Commit Plan
 
 ##### Master branch:
-* Initial commit: directory & file setup
-* README.me plan for project
-* HTML template
-* Mockup content
+- [ ] Initial commit: directory & file setup
+- [ ] README.me plan for project
+- [ ] HTML template
+- [ ] Mockup content
 
 ##### Layout branch:
-* Normalize
-* Classes
-* Id's
-* Grids
-* Positioning
-* Media queries
+- [ ] Normalize
+- [ ] Classes
+- [ ] Id's
+- [ ] Grids
+- [ ] Positioning
+- [ ] Media queries
 
 ##### Draft branches (could be multiple):
 
