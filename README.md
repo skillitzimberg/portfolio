@@ -89,6 +89,8 @@ The page was written for 1280 x 800px screen. I attempted to refactor it with me
 
 It still looks as I wanted it in 1280px wide, but the media queries are not good below 1130px wide (to be generous).
 
+Between 1130px and 800px wide it is broken. Above and below that range it's OK-ish.
+
 ## Support and contact details
 
 Contact the author at commandinghands@gmail.com.
