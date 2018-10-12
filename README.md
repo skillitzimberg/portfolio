@@ -32,13 +32,13 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] floats
 
 ##### Code is clean, well-refactored, and easy-to-read:
-- [ ] correct indentation
-- [ ] spacing
-- [ ] including only necessary comments and debugging tools.
+- [x] correct indentation
+- [x] spacing
+- [x] including only necessary comments and debugging tools.
 
 ##### Commits
-- [ ] made regularly
-- [ ] clear messages that finish the phrase "It will…"
+- [x] made regularly
+- [x] clear messages that finish the phrase "It will…"
 
 ##### The project repo contains a README that includes:
 - [x] author name
@@ -46,7 +46,7 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] description of program
 - [x] program setup instructions
 - [ ] link to site on GitHub Pages
-- [ ] copyright and license information
+- [x] copyright and license information
 
 ##### Follows submission guidelines
 - [ ] Site is successfully deployed to GitHub pages.
@@ -70,24 +70,22 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] Positioning
 - [x] Media queries (non-fully operational)
 
-##### Draft branches (could be multiple):
-
-I'm uncertain past this point. And all of the above may not be practicable anyway. We shall see . . .
-
 
 ## Setup/Installation Requirements
 
-If you would like to work on the code, clone the repository at:
+If you would like to work on the code, clone the repository at: [GitHub](https://github.com/skillitzimberg/portfolio).
 
-To view it online go to:
+To view it online go to: 
 
 ## Known Bugs
 
 Media Queries:
 
-The page was written for 1280 x 800px screen. I attempted to refactor it with media queries to be as smooth as I could get it down to 480px wide.
+The page was written for 1280 x 800px screen (MacBook Pro). I attempted to refactor it with media queries to be as smooth as I could get it down to 480px wide.
 
 I don't understand how the ranges work. I can't see it in my head yet.
+
+I did add columns at above 1290px, but I'm not real happy with them.
 
 ## Support and contact details
 
