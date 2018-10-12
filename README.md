@@ -74,6 +74,12 @@ This is a portfolio/personal website. It is the independent project for week one
 
 I'm uncertain past this point. And all of the above may not be practicable anyway. We shall see . . .
 
+## Layout Plan/Ideas
+
+* Hero image in h1?
+* Projects sidebar?
+*
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
