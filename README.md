@@ -22,7 +22,6 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] span
 
 ##### Bootstrap classes are used to style the page:
-
 - [x] This means explicitly using classes mentioned on this page, not just linking in the Bootstrap stylesheet;
 
 ##### Project includes a custom-made stylesheet:
@@ -52,17 +51,17 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] Your name.
 - [x] An image of you, or something that represents you.
 - [x] A list of projects you have created with active links to their GitHub pages sites or GitHub repositories.
-- [] For each, include a brief description of the project and what languages it uses.
+- [x] For each, include a brief description of the project and what languages it uses.
 - [x] An “About Me” section.
 - [x] Your background (education, job experience, or why did you decide to take a class on programming, etc).
 - [x] Your current interests/hobbies/skills.
-- [] Create a gh-pages branch so that your site can be viewed on GitHub Pages at your-username.github.io/portfolio (for example).
+- [x] Create a gh-pages branch so that your site can be viewed on GitHub Pages at your-username.github.io/portfolio (for example).
 
 ##### Follows submission guidelines
 - [x] Site is successfully deployed to GitHub pages.
-- [ ] Project is in a polished, portfolio-quality state.
-- [ ] Required content was in place by the Friday deadline.
-- [ ] Project demonstrates an understanding of this week's concepts.
+- [nope] Project is in a polished, portfolio-quality state.
+- [nope] Required content was in place by the Friday deadline.
+- [???] Project demonstrates an understanding of this week's concepts.
 
 ## Commit Plan
 
@@ -78,7 +77,7 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] Id's
 - [ ] Grids
 - [x] Positioning
-- [x] Media queries (non-fully operational)
+- [x] Media queries (not fully operational)
 
 
 ## Setup/Installation Requirements

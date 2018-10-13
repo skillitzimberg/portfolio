@@ -1,7 +1,7 @@
 body {
   font-family: 'Open Sans Condensed', sans-serif;
   padding-bottom: 40px;
-  font-size: 16px;
+  font-size: 20px;
 }
 
 ul {
@@ -15,6 +15,10 @@ h3, a {
 a {
   text-decoration: none;
   font-weight: bold;
+}
+
+a:hover {
+  text-decoration: none;
 }
 
 .jumbotron {
@@ -37,6 +41,7 @@ a {
 }
 
 .jumbotron a {
+  font-weight: normal;
   color: #eee;
 }
 
