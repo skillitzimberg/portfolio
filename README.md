@@ -45,11 +45,21 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] project or program name
 - [x] description of program
 - [x] program setup instructions
-- [ ] link to site on GitHub Pages
+- [x] link to site on GitHub Pages
 - [x] copyright and license information
 
+##### Webiste Includes:
+- [x] Your name.
+- [x] An image of you, or something that represents you.
+- [x] A list of projects you have created with active links to their GitHub pages sites or GitHub repositories.
+- [] For each, include a brief description of the project and what languages it uses.
+- [] An “About Me” section.
+- [] Your background (education, job experience, or why did you decide to take a class on programming, etc).
+- [] Your current interests/hobbies/skills.
+- [] Create a gh-pages branch so that your site can be viewed on GitHub Pages at your-username.github.io/portfolio (for example).
+
 ##### Follows submission guidelines
-- [ ] Site is successfully deployed to GitHub pages.
+- [x] Site is successfully deployed to GitHub pages.
 - [ ] Project is in a polished, portfolio-quality state.
 - [ ] Required content was in place by the Friday deadline.
 - [ ] Project demonstrates an understanding of this week's concepts.
