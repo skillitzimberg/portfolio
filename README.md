@@ -53,9 +53,9 @@ This is a portfolio/personal website. It is the independent project for week one
 - [x] An image of you, or something that represents you.
 - [x] A list of projects you have created with active links to their GitHub pages sites or GitHub repositories.
 - [] For each, include a brief description of the project and what languages it uses.
-- [] An “About Me” section.
-- [] Your background (education, job experience, or why did you decide to take a class on programming, etc).
-- [] Your current interests/hobbies/skills.
+- [x] An “About Me” section.
+- [x] Your background (education, job experience, or why did you decide to take a class on programming, etc).
+- [x] Your current interests/hobbies/skills.
 - [] Create a gh-pages branch so that your site can be viewed on GitHub Pages at your-username.github.io/portfolio (for example).
 
 ##### Follows submission guidelines
