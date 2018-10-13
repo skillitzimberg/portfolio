@@ -37,7 +37,7 @@ a:hover {
   width: 70%;
   text-align: center;
   margin: 2em auto 0;
-  font-size: 1.5em;
+  font-size: 24px;
 }
 
 .jumbotron a {
@@ -47,8 +47,8 @@ a:hover {
 
 .jumbotron ul {
   text-align: center;
-  font-size: 2em;
-  margin-top: 2em;
+  font-size: 32px;
+  margin-top: 32px;
 }
 
 .jumbotron li {
@@ -65,13 +65,18 @@ a:hover {
 
 .sidebar {
   float: right;
-  margin: 40px 20px 10px 50px;
+  margin: 40px 0 5px 20px;
+  padding: 10px;
 }
 
 .main {
   text-align: justify;
-  width: 95%;
-  margin: auto;
+  margin: 0 20px 0;
+}
+
+.main p {
+  width: 40%;
+  float: left;
 }
 
 #aboutMe {
@@ -84,24 +89,6 @@ a:hover {
 
 .myemphasis {
   font-weight: bold;
-  font-size: 1.25em;
+  font-size: 22px;
   color: #581908;
-}
-
-@media screen and (min-width: 1290px) {
-  .column {
-    width: 300px;
-    margin: 15px;
-    float: left;
-  }
-
-  #aboutMe {
-    margin-left: 100px;
-  }
-}
-
-@media screen and (max-width: 650px) {
-  #godot {
-    display: none;
-  }
 }
