@@ -10,7 +10,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: #333;
+  color: #581908;
 }
 
 .jumbotron {
@@ -59,10 +59,14 @@ a {
   margin: 40px 20px 10px 50px;
 }
 
-#aboutMe {
+.main {
   text-align: justify;
   width: 95%;
   margin: auto;
+}
+
+#aboutMe {
+
 }
 
 #projects {
@@ -82,7 +86,7 @@ a {
     float: left;
   }
 
-  .aboutMe {
+  #aboutMe {
     margin-left: 100px;
   }
 }
