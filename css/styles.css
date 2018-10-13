@@ -8,9 +8,13 @@ ul {
   list-style: none;
 }
 
+h3, a {
+  color: #581908;
+}
+
 a {
   text-decoration: none;
-  color: #581908;
+  font-weight: bold;
 }
 
 .jumbotron {

@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700" rel="stylesheet">
     <title>My Portfolio</title>
   </head>
   <body>
@@ -19,8 +19,8 @@
 
         <ul>
           <li><a href="#">home</a></li>
-          <li><a href="#projects">projects</a></li>
           <li><a href="#background">background</a></li>
+          <li><a href="#projects">projects</a></li>
           <li><a href="#aboutMe">about</a></li>
           <li><a href="#extracurricular">non-tech</a></li>
         </ul>
@@ -28,14 +28,14 @@
 
       <div>
         <div class="sidebar">
-          <h3 id="projects">Coding Projects</h3>
+          <h4 id="projects">Coding Projects</h4>
           <ul class="projectList">
             <li><a href="https://github.com/skillitzimberg/codeBlog">Calculator</a></li>
             <li><a href="https://github.com/skillitzimberg/bread">Bread</a></li>
             <li><a href="https://github.com/skillitzimberg/cipher">Cipher</a></li>
           </ul>
 
-          <h3>Music Projects</h3>
+          <h4>Music Projects</h4>
           <ul class="projectList">
             <li><a href="https://damnfamily.bandcamp.com/">Damn Family</a></li>
             <li><a href="https://www.metropolis-records.com/artist/roxy-epoxy--the-rebound">Roxy Epoxy</a></li>
@@ -44,6 +44,16 @@
         </div>
       </div>
       <div class="main">
+        <div class="column" id="background">
+          <h3>Background</h3>
+          <p><em>Why did you make the decision to enroll in a coding bootcamp? What are you aiming to achieve by completing 27 weeks of technical training?</em></p>
+          <p>I got a job out of college in which one of my responsibilities was maintaining the website. I had never encountered HTML and CSS before. I learned how to do it by using "view source," <a href="http://www.csszengarden.com/">CSSZengarden</a>, and dissecting the code in order to see how it worked. I literally printed many pages of html and made diagrams to learn it. I gained some fluency and eventually redesigned the website from scratch. But between working, playing music, and relationships I could never devote myself to it. In late 2014 I enrolled in courses at <a href="https://www.pcc.edu/">Portland Community College</a> to pursue a career in IT. One of the courses I took was an introduction to programming that used JavaScript. I really liked it and seemed to have an aptitude for it. I could easily spend 8 to 10 hours straight working on it. It absorbed me. Unfortunately, my relationship dissolved (not because of coding) and I had to make changes that did not allow me the time for school. Due to lifelong physical challenges, I've finally gotten to a place where I cannot sustain physical labor anymore and I am not willing to just take on any dead-end desk job. I need to take the plunge, risk it all. I've got nothing to lose and everything to gain.</p>
+
+          <p><em>Do you already have specific goals for yourself in mind? If not, can you think of any now?</em></p>
+
+          <p>My goal is to become a freelance web/app developer. I have that as my five year goal, but will do whatever I can to make it happen sooner. But honestly, just making a living coding, even at the financial level I have been working in warehouses and factories would be a major success. Ideally I'd like to work for small to medium size companies and non-profits as I really appreciate that scale of organization. There's something particulary intriguing to me about that level. Probably because I've tended to work for that size company and like how everyone knows everyone, processes are more fluid, and work is an "all hands on deck" affair - everyone can or does do everything, there are no real specialists.</p>
+        </div>
+
         <div class="column" id="projects">
           <h3>Code</h3>
           <p>The week before my Epicodus cohort started I tried my hand at JavaScript by making a calculator: <a href="https://github.com/skillitzimberg/codeBlog">Calculator</a>. Besides JS, the project uses HTML &amp CSS.</p>
@@ -53,16 +63,6 @@
           <p>When I started getting into solving the display problem in the calculator, I refactored another project I'd started when I was going through the Epicodus curriculum on my own: <a href="https://github.com/skillitzimberg/cipher">Cipher</a>. Again, display issues. The intent was to learn about taking input, using Regular expressions to get rid of spaces, then sort the remaining charaters by their type: numbers, letter, other character. The script is working, but I broke the display because even though it worked, I wasn't happy with how cluttered the code was. Then my cohort started and I haven't gotten back into the project, figuring that I'll be able to fix it using the JS focus of the second week of Epicodus Intro.</p>
 
           <p>My sister, Jessica, is a baker . . . a world-class baker. She was the lead baker at Tabor Bread before moving back to Colorado to take care of mom. So she's a badass. In addition to taking care of mom and her husband Tom (72 &amp 80 years old respectively), she's baking out of their tiny electric oven and selling out when she goes to farmer's markets. She even taking pre-orders. Also in the Epicodus curriculum is a cupcake shop website project. I took that as a jumping off point to make a website for Jessica: <a href="https://github.com/skillitzimberg/bread">Bread</a>. I haven't told her about this prospect yet, because I need more practice and information, but I really hope to get this functional for her.</p>
-        </div>
-
-        <div class="column" id="background">
-          <h3>Background</h3>
-          <p><em>Why did you make the decision to enroll in a coding bootcamp? What are you aiming to achieve by completing 27 weeks of technical training?</em></p>
-          <p>I got a job out of college in which one of my responsibilities was maintaining the website. I had never encountered HTML and CSS before. I learned how to do it by using "view source," <strong>CSSZengarden</strong>, and dissecting the code in order to see how it worked. I literally printed many pages of html and made diagrams to learn it. I gained some fluency and eventually redesigned the website from scratch. But between working, playing music, and relationships I could never devote myself to it. In late 2014 I enrolled in courses at <strong>Portland Community College</strong> to pursue a career in IT. One of the courses I took was an introduction to programming that used JavaScript. I really liked it and seemed to have an aptitude for it. I could easily spend 8 to 10 hours straight working on it. It absorbed me. Unfortunately, my relationship dissolved (not because of coding) and I had to make changes that did not allow me the time for school. Due to lifelong physical challenges, I've finally gotten to a place where I cannot sustain physical labor anymore and I am not willing to just take on any dead-end desk job. I need to take the plunge, risk it all. I've got nothing to lose and everything to gain.</p>
-
-          <p><em>Do you already have specific goals for yourself in mind? If not, can you think of any now?</em></p>
-
-          <p>My goal is to become a freelance web/app developer. I have that as my five year goal, but will do whatever I can to make it happen sooner. But honestly, just making a living coding, even at the financial level I have been working in warehouses and factories would be a major success. Ideally I'd like to work for small to medium size companies and non-profits as I really appreciate that scale of organization. There's something particulary intriguing to me about that level. Probably because I've tended to work for that size company and like how everyone knows everyone, processes are more fluid, and work is an "all hands on deck" affair - everyone can or does do everything, there are no real specialists.</p>
         </div>
 
         <div class="column aboutMe" id="aboutMe">
