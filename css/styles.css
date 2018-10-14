@@ -65,18 +65,13 @@ a:hover {
 
 .sidebar {
   float: right;
-  margin: 40px 0 5px 20px;
+  margin: 0px 0 5px 20px;
   padding: 10px;
 }
 
 .main {
   text-align: justify;
   margin: 0 20px 0;
-}
-
-.main p {
-  width: 40%;
-  float: left;
 }
 
 #aboutMe {
