@@ -1,10 +1,10 @@
 import React from "react";
+import Nav from "./Nav";
 
 function Header(){
   return (
     <header>
-      <h1>Brain Dump</h1>
-      <h3>A web development newbie becoming not a newbie.</h3>
+      <Nav/>
     </header>
   );
 }
