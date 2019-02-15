@@ -1,81 +1,26 @@
 # Portfolio
 
-#### Epicodus Week One Solo Project, 10.12.2018
+### Author
+Scott Bergler  
 
-#### By Scott Bergler
+## Table of contents
+**[Description](#description)**<br>
+**[Setup & Installation](#setup-and-installation)**<br>
+**[Known Bugs](#known-bugs)**<br>
+**[Support](#support)**<br>
+**[Technologies Used](#technologies-used)**<br>
+**[License](#license)**<br>
+**[Copyright](#copyright)**<br>
 
 ## Description
-This is a portfolio/personal website. It is the independent project for week one at Epicodus.
-
-## Objectives:
-##### The following HTML tags are all used:
-- [x] p
-- [x] h
-- [x] ul
-- [x] ol
-- [x] li
-- [x] em
-- [x] strong
-- [x] a
-- [x] img
-- [x] div
-- [x] span
-
-##### Bootstrap classes are used to style the page:
-
-- [x] This means explicitly using classes mentioned on this page, not just linking in the Bootstrap stylesheet;
-
-##### Project includes a custom-made stylesheet:
-- [x] typography styles
-- [x] cascading
-- [x] the box model
-- [x] floats
-
-##### Code is clean, well-refactored, and easy-to-read:
-- [x] correct indentation
-- [x] spacing
-- [x] including only necessary comments and debugging tools.
-
-##### Commits
-- [x] made regularly
-- [x] clear messages that finish the phrase "It will…"
-
-##### The project repo contains a README that includes:
-- [x] author name
-- [x] project or program name
-- [x] description of program
-- [x] program setup instructions
-- [ ] link to site on GitHub Pages
-- [x] copyright and license information
-
-##### Follows submission guidelines
-- [ ] Site is successfully deployed to GitHub pages.
-- [ ] Project is in a polished, portfolio-quality state.
-- [ ] Required content was in place by the Friday deadline.
-- [ ] Project demonstrates an understanding of this week's concepts.
-
-## Commit Plan
-
-##### Master branch:
-- [x] Initial commit: directory & file setup
-- [x] README.me plan for project
-- [x] HTML template
-- [x] Mockup content
-
-##### Layout branch:
-- [x] Normalize
-- [x] Classes
-- [x] Id's
-- [ ] Grids
-- [x] Positioning
-- [x] Media queries (non-fully operational)
-
+This is a portfolio/personal website. It includes a blogging app for my own use and my curriculum vitae.
 
 ## Setup/Installation Requirements
+If you would like to use the project as a starting point for a project of your own, fork the repository from: [GitHub](https://github.com/skillitzimberg/portfolio), then clone it to your machine.
 
-If you would like to work on the code, clone the repository at: [GitHub](https://github.com/skillitzimberg/portfolio).
+See [SETUP](SETUP.md) to make sure you have the software the project uses installed.
 
-To view it online go to: [GitHub Pages](https://skillitzimberg.github.io/portfolio/).
+Reference [WEBPACK](WEBPACK.md) for details on how the project environment is built.
 
 ## Known Bugs
 
@@ -89,14 +34,12 @@ I did add columns at above 1290px, but I'm not real happy with them.
 
 ## Support and contact details
 
-Contact the author at [commandinghands@gmail.com](mailto:commandinghands@gmail.com).
+Scott Bergler: [commandinghands@gmail.com](mailto:commandinghands@gmail.com)
 
 ## Technologies Used
+Babel, ES Lint, Node, React, Webpack
 
-Just the essentials: HTML, CSS, Bootstrap.
-
-### License
-
-This project is licensed under the terms of the MIT license.
+## License
+This software is licensed under the MIT license.
 
 Copyright (c) 2018 **_Scott Bergler_**
