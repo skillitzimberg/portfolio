@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import Header from "../Header";
 import { codingProjects } from "./projectList";
 import { musicProjects } from "./projectList";
-// import "./projectStyles.css";
+import "./projectStyles.css";
 
 function Projects(){
 

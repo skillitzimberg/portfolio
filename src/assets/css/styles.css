@@ -14,7 +14,7 @@ body {
   font-size: 1.5rem;
 }
 
-.navigation a, a:hover, a:visited {
+.navigation a, .navigation a:hover, .navigation a:visited {
   text-decoration: none;
   color: #333;
   margin: 20px;
