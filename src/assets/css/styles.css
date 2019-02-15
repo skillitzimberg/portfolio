@@ -10,6 +10,11 @@ body {
   width: 100%;
 } */
 
+a, a:hover, a:visited {
+  color: #333;
+  margin: 20px;
+}
+
 .navigation {
   font-size: 1.5rem;
 }
