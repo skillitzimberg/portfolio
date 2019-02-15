@@ -1,7 +1,6 @@
 import React from "react";
 import Post from "./Post";
 import Header from "../Header";
-import Nav from "../Nav";
 // import { posts } from "./posts";
 
 const posts = [
