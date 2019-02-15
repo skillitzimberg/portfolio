@@ -58,6 +58,10 @@ main {
   margin: 20px;
 }
 
+.articleList {
+  border: 1px solid #333;
+}
+
 .post {
   width: 80%;
   text-align: justify;
