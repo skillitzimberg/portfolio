@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header";
+import Project from "./Project";
 import { codingProjects } from "./projectList";
 import { musicProjects } from "./projectList";
 import "./projectStyles.css";
@@ -16,14 +17,24 @@ function Projects(){
         <div className="codingProjects">
           <h3>Coding Projects</h3>
           {codingProjects.map((project, index) =>
-            <p><a href={project.url}>{project.name}</a>: {project.description}</p>
+            <Project 
+            name={project.name}
+            url={project.url}
+            description={project.description}
+            key={index}
+            />
           )}
         </div>
 
         <div className="musicProjects">
           <h3>Music Projects</h3>
           {musicProjects.map((project, index) =>
-            <p><a href={project.url}>{project.name}</a>: {project.description}</p>
+            <Project 
+            name={project.name}
+            url={project.url}
+            description={project.description}
+            key={index}
+            />
           )}
         </div>
 

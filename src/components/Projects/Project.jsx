@@ -4,8 +4,7 @@ import PropTypes from "prop-types";
 function Project(props){
   return (
     <article className="project">
-      <h1>{ props.name }</h1>
-      <div>{ props.description }</div>
+      <a href={props.url}>{props.name}</a>: {props.description}
     </article>
   );
 }
