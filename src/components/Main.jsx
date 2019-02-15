@@ -3,7 +3,7 @@ import Nav from "./Nav";
 
 function Main(){
   return (
-    <div className="jumbotron">
+    <div className="siteHeading">
       <Nav/>
 
       <h1>portfolio</h1>
