@@ -1,16 +1,16 @@
 export const projectList = [
   {
-    name: "The Blog Begins",
+    name: "jYoukBox",
     url: "August 21, 2018",
     description: "This is an description."
   },
   {
-    name: "The Blog Begins Again",
+    name: "Trimet Commuter",
     url: "August 22, 2018",
     description: "This is another description."
   },
   {
-    name: "Blog: The Return",
+    name: "Template JS",
     url: "August 23, 2018",
     description: "This is yet another description."
   }

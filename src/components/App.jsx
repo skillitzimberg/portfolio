@@ -3,7 +3,7 @@ import { Switch, Route } from "react-router-dom";
 import Articles from "./Blog/Articles";
 import Error404 from "./Error404";
 import Main from "./Main";
-import Projects from "./Projects";
+import Projects from "./Projects/Projects";
 import Resume from "./Resume/Resume";
 import "../assets/css/styles.css";
 

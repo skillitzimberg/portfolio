@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header";
 import { projectList } from "./projectList";
-import "./projectStyles.css";
+// import "./projectStyles.css";
 
 function Projects(){
 
