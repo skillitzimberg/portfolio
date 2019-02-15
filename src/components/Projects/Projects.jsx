@@ -21,6 +21,7 @@ function Projects(){
             name={project.name}
             url={project.url}
             description={project.description}
+            image={project.image}
             key={index}
             />
           )}
