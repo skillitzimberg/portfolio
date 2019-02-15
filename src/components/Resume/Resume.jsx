@@ -1,9 +1,11 @@
 import React from "react";
+import Header from "../Header";
 
 function Resume(){
   
   return (
     <div class="container">
+      <Header/>
       <div class="header">
         <h1 class="color">Scott Bergler</h1>
         <h3>commandinghands@gmail.com :: 555.555.5555</h3>
