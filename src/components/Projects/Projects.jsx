@@ -33,6 +33,7 @@ function Projects(){
             name={project.name}
             url={project.url}
             description={project.description}
+            index={project.index}
             key={index}
             />
           )}
