@@ -18,14 +18,13 @@ function Articles(){
       <Header/>
       <h1>Brain Dump</h1>
       <h3>A web development newbie becoming not a newbie.</h3>
+
       <div className="container">
-      {posts.map((post, index) =>
-        <Post
-        title={posts.title}
-        date={posts.date}
-        article={posts.article}
-        key={index}/>
-      )}
+      <Post
+        title={posts[0].title}
+        date={posts[0].date}
+        article={posts[0].article}
+      />
       </div>
     </main>
   );
