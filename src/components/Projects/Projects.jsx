@@ -16,14 +16,14 @@ function Projects(){
         <div className="codingProjects">
           <h3>Coding Projects</h3>
           {codingProjects.map((project, index) =>
-            <p><Link to="/">{project.name}</Link>: {project.description}</p>
+            <p><a href={project.url}>{project.name}</a>: {project.description}</p>
           )}
         </div>
 
         <div className="musicProjects">
           <h3>Music Projects</h3>
           {musicProjects.map((project, index) =>
-            <p><a href="">{project.name}</a>: {project.description}</p>
+            <p><a href={project.url}>{project.name}</a>: {project.description}</p>
           )}
         </div>
 
