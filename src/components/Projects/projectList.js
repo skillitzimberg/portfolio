@@ -1,21 +1,25 @@
+import jyoukbox from '../../assets/images/jyoukbox.png'
+import commuter from '../../assets/images/commuter.png'
+import tumbleweed from '../../assets/images/tumbleweed.png'
+
 export const codingProjects = [
   {
     name: "jYoukBox",
     url: "https://github.com/skillitzimberg/JYoukBox",
     description: "A music player using the YouTube API to make a playlist of videos.",
-    image: "/assets/images/jyoukbox.png"
+    image: jyoukbox
   },
   {
     name: "Trimet Commuter",
     url: "https://github.com/skillitzimberg/trimet-commuter",
     description: "TriMet Commuter is a light TriMet transit tool. Enter your daily morning and evening stops.",
-    image: "/assets/images/commuter.png"
+    image: commuter
   },
   {
     name: "Tumbelweed Bakehouse",
     url: "https://github.com/skillitzimberg/TumbleweedBakehouse.Solution",
     description: "The first step in creating a website/app to help my sister manage her bakery business by allowing her customers to place orders online, storing order information in a database, allowing specific products to be displayed as appropriate, and reducing manual (pen & paper) data handling",
-    image: "/assets/images/tumbleweed.png"
+    image: tumbleweed
   }
 ];
 
