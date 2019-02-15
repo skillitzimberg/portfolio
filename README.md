@@ -13,7 +13,7 @@ Scott Bergler
 **[Copyright](#copyright)**<br>
 
 ## Description
-This is a portfolio/personal website. It includes a blogging app for my own use and my curriculum vitae.
+A personal portfolio & blog about code related experiences.
 
 ## Setup/Installation Requirements
 If you would like to use the project as a starting point for a project of your own, fork the repository from: [GitHub](https://github.com/skillitzimberg/portfolio), then clone it to your machine.
