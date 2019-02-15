@@ -1,6 +1,10 @@
 .articleList {
-  border: 1px solid #333;
-  width: 15%;
+  border-right: 1px solid #333;
+  width: 10%;
   padding: 20px;
   float: left;
+}
+
+.articleList h3 {
+  margin-top: 0;
 }
