@@ -17,7 +17,6 @@ function Articles(){
   return (
     <main>
       <Header/>
-      <Nav/>
       <div className="container">
       {posts.map((post, index) =>
         <Post
