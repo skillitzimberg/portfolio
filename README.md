@@ -22,6 +22,8 @@ See [SETUP](SETUP.md) to make sure you have the software the project uses instal
 
 Reference [WEBPACK](WEBPACK.md) for details on how the project environment is built.
 
+See [PLANNING](PLANNING.md) for details on how the project is being designed.
+
 ## Known Bugs
 
 Media Queries:
