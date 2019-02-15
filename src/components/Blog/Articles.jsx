@@ -17,6 +17,8 @@ function Articles(){
   return (
     <main>
       <Header/>
+      <h1>Brain Dump</h1>
+      <h3>A web development newbie becoming not a newbie.</h3>
       <div className="container">
       {posts.map((post, index) =>
         <Post
