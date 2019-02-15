@@ -1,4 +1,4 @@
-export const codingList = [
+export const codingProjects = [
   {
     name: "jYoukBox",
     url: "https://github.com/skillitzimberg/JYoukBox",
@@ -15,7 +15,7 @@ export const codingList = [
     description: "The first step in creating a website/app to help my sister manage her bakery business by allowing her customers to place orders online, storing order information in a database, allowing specific products to be displayed as appropriate, and reducing manual (pen & paper) data handling"
   }
 ];
-export const otherProjectsList = [
+export const musicProjects = [
   {
     name: "Damn Family",
     url: "https://damnfamily.bandcamp.com/",

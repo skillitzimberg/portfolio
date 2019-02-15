@@ -1,7 +1,8 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header";
-import { projectList } from "./projectList";
+import { codingProjects } from "./projectList";
+import { musicProjects } from "./projectList";
 // import "./projectStyles.css";
 
 function Projects(){
@@ -12,10 +13,17 @@ function Projects(){
       <div className="container">
         <h1>Projects</h1>
 
-        <div className="projectList">
+        <div className="codingProjects">
           <h3>Coding Projects</h3>
-          {projectList.map((project, index) =>
-            <p><Link to="/">{project.name}</Link></p>
+          {codingProjects.map((project, index) =>
+            <p><Link to="/">{project.name}</Link>: {project.description}</p>
+          )}
+        </div>
+
+        <div className="musicProjects">
+          <h3>Music Projects</h3>
+          {musicProjects.map((project, index) =>
+            <p><a href="">{project.name}</a>: {project.description}</p>
           )}
         </div>
 
