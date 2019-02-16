@@ -7,3 +7,4 @@
 - 3:15 PM: Collecting images of projects to include on projects page.
 - 3:30 PM: Collecting images of projects to include on projects page.
 - 3:45 PM: Troubleshooting image display - issue with path?.
+- 5:00 PM: Trying to figure out what steps to take next; reading Epicodus UI curriculum on box models.
