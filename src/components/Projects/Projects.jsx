@@ -9,12 +9,12 @@ import "./projectStyles.css";
 function Projects(){
 
   return (
-    <main>
+    <div className="container">
       <Header/>
-      <div className="container">
+      <main>
         <h1>Projects</h1>
-
-        <div className="codingProjects">
+  
+        <section className="codingProjects">
           <h3>Coding Projects</h3>
           {codingProjects.map((project, index) =>
             <Project 
@@ -25,9 +25,9 @@ function Projects(){
             key={index}
             />
           )}
-        </div>
-
-        <div className="musicProjects">
+        </section>
+  
+        <section className="musicProjects">
           <h3>Music Projects</h3>
           {musicProjects.map((project, index) =>
             <Project 
@@ -38,10 +38,9 @@ function Projects(){
             key={index}
             />
           )}
-        </div>
-
-      </div>
-    </main>
+        </section>
+      </main>
+    </div>
   );
 }
 

@@ -7,21 +7,20 @@ import "./blogStyles.css";
 function Articles(){
 
   return (
-    <main>
+    <div className="container">
       <Header/>
-      <div className="container">
+      <main>
         <h1>Brain Dump</h1>
         <h3>A web development newbie becoming not a newbie.</h3>
-
-      <div className="articleList">
-        <h3>Blog Posts</h3>
-        {postList.map((post, index) =>
-          <p><Link to="/">{post.date}</Link></p>
-        )}
-      </div>
-
-      </div>
-    </main>
+  
+        <section className="articleList">
+          <h3>Blog Posts</h3>
+          {postList.map((post, index) =>
+            <p><Link to="/">{post.date}</Link></p>
+          )}
+        </section>
+      </main>
+    </div>
   );
 }
 

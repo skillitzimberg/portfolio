@@ -4,8 +4,9 @@ import PropTypes from "prop-types";
 function Project(props){
   return (
     <article className="project">
+      <a href={props.url} target="blank">{props.name}</a>
       <img src={props.image}/>
-      <a href={props.url} target="blank">{props.name}</a>: {props.description}
+      {props.description}
     </article>
   );
 }
