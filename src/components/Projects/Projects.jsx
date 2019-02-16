@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import Header from "../Header";
 import Project from "./Project";
 import { codingProjects } from "./projectList";
@@ -10,19 +9,17 @@ function Projects(){
 
   return (
     <div className="container">
-      <Header/>
+      <Header pageHead={"Projects"}/>
       <main>
-        <h1>Projects</h1>
-  
         <section className="codingProjects">
           <h3>Coding Projects</h3>
           {codingProjects.map((project, index) =>
             <Project 
-            name={project.name}
-            url={project.url}
-            description={project.description}
-            image={project.image}
-            key={index}
+              name={project.name}
+              url={project.url}
+              description={project.description}
+              image={project.image}
+              key={index}
             />
           )}
         </section>
@@ -31,11 +28,11 @@ function Projects(){
           <h3>Music Projects</h3>
           {musicProjects.map((project, index) =>
             <Project 
-            name={project.name}
-            url={project.url}
-            description={project.description}
-            index={project.index}
-            key={index}
+              name={project.name}
+              url={project.url}
+              description={project.description}
+              index={project.index}
+              key={index}
             />
           )}
         </section>

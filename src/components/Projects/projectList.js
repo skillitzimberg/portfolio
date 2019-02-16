@@ -1,6 +1,6 @@
-import jyoukbox from '../../assets/images/jyoukbox.png'
-import commuter from '../../assets/images/commuter.png'
-import tumbleweed from '../../assets/images/tumbleweed.png'
+import jyoukbox from "../../assets/images/jyoukbox.png";
+import commuter from "../../assets/images/commuter.png";
+import tumbleweed from "../../assets/images/tumbleweed.png";
 
 export const codingProjects = [
   {

@@ -8,15 +8,14 @@ function Articles(){
 
   return (
     <div className="container">
-      <Header/>
+      <Header pageHead={"Brain Dump"}/>
       <main>
-        <h1>Brain Dump</h1>
         <h3>A web development newbie becoming not a newbie.</h3>
   
         <section className="articleList">
           <h3>Blog Posts</h3>
           {postList.map((post, index) =>
-            <p><Link to="/">{post.date}</Link></p>
+            <p><Link to="/" key={index}>{post.date}</Link></p>
           )}
         </section>
       </main>
