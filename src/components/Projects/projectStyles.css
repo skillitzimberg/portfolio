@@ -1,5 +1,9 @@
-.codingProjects, .musicProjects, .project {
+.codingProjects, .musicProjects, .project p {
   margin: 50px 0 0;
+}
+
+.project {
+  margin: 30px 0 50px;
 }
 
 .projectLink {

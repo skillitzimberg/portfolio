@@ -3,7 +3,6 @@ import commuter from "../../assets/images/commuter.png";
 import tumbleweed from "../../assets/images/tumbleweed.png";
 import damnFamily from "../../assets/images/damnFamily.jpg";
 import roxyEpoxy from "../../assets/images/roxyEpoxy.jpg";
-import godot from "../../assets/images/godot.jpg";
 
 export const codingProjects = [
   {
@@ -43,6 +42,6 @@ export const musicProjects = [
     name: "Miru Mir",
     url: "http://www.barynya.com/russianmusic/gypsy_band_portland_oregon.htm",
     description: "Russian rock & roll band that is currently buried in the digital sands of time (i.e. I can't find any of our music online).",
-    image: "../assets/images/jyoukbox.png"
+    image: ""
   }
 ];

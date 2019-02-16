@@ -38,7 +38,7 @@ function Projects(){
               />
             )}
           </section>
-
+          
         </main>
       </div>
     </div>

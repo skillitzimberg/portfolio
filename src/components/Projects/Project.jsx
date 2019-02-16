@@ -6,7 +6,7 @@ function Project(props){
     <article className="project">
       <a href={props.url} target="blank" className="projectLink">{props.name}</a>
       <img src={props.image}/>
-      {props.description}
+      <p>{props.description}</p>
     </article>
   );
 }
