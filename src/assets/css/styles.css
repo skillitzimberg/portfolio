@@ -14,7 +14,7 @@ main {
 
 a, a:hover, a:visited {
   color: #333;
-  margin: 20px;
+  margin: 0;
 }
 
 .navigation {
