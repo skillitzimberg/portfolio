@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
 
 body {
+  width: 100%;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 20px;
   color: #333;
 }
 
-/* main {
+main {
   width: 100%;
-} */
+}
 
 a, a:hover, a:visited {
   color: #333;
@@ -17,6 +18,7 @@ a, a:hover, a:visited {
 
 .navigation {
   font-size: 1.5rem;
+  margin: auto;
 }
 
 .navigation a, .navigation a:hover, .navigation a:visited {
