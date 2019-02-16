@@ -1,0 +1,4 @@
+**/*.png
+**/*.jpeg
+**/*.jpg
+/src/assets/css/bootstrap.min.css
