@@ -18,45 +18,48 @@ function Resume(){
 
         <div className="work">
           <h4>PROFESSIONAL EXPERIENCE</h4>
-          <div className="employer">
-            <p className="job">
-            • Schoolhouse Electric &amp; Supply Company •
+          <div className="job">
+            <p className="employer">
+            Schoolhouse Electric &amp; Supply Company
             </p>
             <span>A Portland, OR born lighting and lifestyle goods designer and manufacturer.</span>
             <span className="jobTitle">Assembler</span>
             <ul>
-              <li>Accurately check-in and inspect components in assembly kits.</li>
-              <li>Assemble, test, and package light fixtures and other merchandise.</li>
-              <li>Maintain quality control standards.</li>
-              <li>Maintain up-to-date knowledge of standard operating procedures.</li>
+              <li className="duty">Accurately check-in and inspect components in assembly kits.</li>
+              <li className="duty">Assemble, test, and package light fixtures and other merchandise.</li>
+              <li className="duty">Maintain quality control standards.</li>
+              <li className="duty">Maintain up-to-date knowledge of standard operating procedures.</li>
             </ul>
           </div>
 
-          <div className="employer">
-            <h3 className="color">Schoolhouse Electric &amp; Supply Company<span> • November 2017 – present</span> • Portland, OR</h3>
+          <div className="job">
+            <p className="employer">
+            Schoolhouse Electric &amp; Supply Company
+            </p>
             <span>A Portland, OR born lighting and lifestyle goods designer and manufacturer.</span>
             <span className="jobTitle">Assembler</span>
             <ul>
-              <li>Accurately check-in and inspect components in assembly kits.</li>
-              <li>Assemble, test, and package light fixtures and other merchandise.</li>
-              <li>Maintain quality control standards.</li>
-              <li>Maintain up-to-date knowledge of standard operating procedures.</li>
+              <li className="duty">Accurately check-in and inspect components in assembly kits.</li>
+              <li className="duty">Assemble, test, and package light fixtures and other merchandise.</li>
+              <li className="duty">Maintain quality control standards.</li>
+              <li className="duty">Maintain up-to-date knowledge of standard operating procedures.</li>
             </ul>
           </div>
 
-          <div className="employer">
-            <h3 className="color">Schoolhouse Electric &amp; Supply Company<span> • November 2017 – present</span> • Portland, OR</h3>
+          <div className="job">
+            <p className="employer">
+            Schoolhouse Electric &amp; Supply Company
+            </p>
             <span>A Portland, OR born lighting and lifestyle goods designer and manufacturer.</span>
             <span className="jobTitle">Assembler</span>
             <ul>
-              <li>Accurately check-in and inspect components in assembly kits.</li>
-              <li>Assemble, test, and package light fixtures and other merchandise.</li>
-              <li>Maintain quality control standards.</li>
-              <li>Maintain up-to-date knowledge of standard operating procedures.</li>
+              <li className="duty">Accurately check-in and inspect components in assembly kits.</li>
+              <li className="duty">Assemble, test, and package light fixtures and other merchandise.</li>
+              <li className="duty">Maintain quality control standards.</li>
+              <li className="duty">Maintain up-to-date knowledge of standard operating procedures.</li>
             </ul>
           </div>
         </div>
-
       </div>
     </div>
   );

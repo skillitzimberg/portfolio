@@ -1,23 +1,40 @@
+.work ul {
+  margin: 0 50px;
+}
+
 .container {
-  font-size: 2.5rem;
+  font-size: 14pt;
+  width: 39em;
+  line-height: 145%;
+  letter-spacing: 1px;
 }
 
 .resumeHead {
-  margin: 40px 0;
+  margin: 80px 0;
 }
 
 span {
   font-style: italic;
 }
 
-.employer {
-  margin: 20px 0 0;
-}
 .job {
-  letter-spacing: 1px;
+  margin: 0 0 50px;
+  margin-left: -10px;
+  padding-left: 20px;
+  border-left: 1px solid #333;
+}
+
+.employer {
+  margin: 25px 0;
+  font-weight: 700;
+  text-align: left;
+}
+.duty {
+  margin: 20px 0;
 }
 
 .jobTitle {
+  margin: 25px 0 0;
   font-weight: 700;
   display: block;
 }
