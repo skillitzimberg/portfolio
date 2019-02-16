@@ -1,6 +1,9 @@
 import jyoukbox from "../../assets/images/jyoukbox.png";
 import commuter from "../../assets/images/commuter.png";
 import tumbleweed from "../../assets/images/tumbleweed.png";
+import damnFamily from "../../assets/images/damnFamily.jpg";
+import roxyEpoxy from "../../assets/images/roxyEpoxy.jpg";
+import godot from "../../assets/images/godot.jpg";
 
 export const codingProjects = [
   {
@@ -28,13 +31,13 @@ export const musicProjects = [
     name: "Damn Family",
     url: "https://damnfamily.bandcamp.com/",
     description: "All-acoustic old-school country & bluegrass music played by people with backgrounds in jazz, country, metal, punk & noise.",
-    image: "../assets/images/jyoukbox.png"
+    image: damnFamily
   },
   {
     name: "Roxy Epoxy",
     url: "https://www.metropolis-records.com/artist/roxy-epoxy--the-rebound",
     description: "Roxy Epoxy's band post-Epoxies. Maybe Goth Glam Metal New Wave?",
-    image: "../assets/images/jyoukbox.png"
+    image: roxyEpoxy
   },
   {
     name: "Miru Mir",

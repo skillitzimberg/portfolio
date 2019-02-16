@@ -12,6 +12,7 @@ function Projects(){
       <Header pageHead={"Projects"}/>
       <div className="container">
         <main>
+
           <section className="codingProjects">
             <h3>Coding Projects</h3>
             {codingProjects.map((project, index) =>
@@ -32,11 +33,12 @@ function Projects(){
                 name={project.name}
                 url={project.url}
                 description={project.description}
-                index={project.index}
+                image={project.image}
                 key={index}
               />
             )}
           </section>
+
         </main>
       </div>
     </div>

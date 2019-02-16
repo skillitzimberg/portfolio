@@ -1,4 +1,13 @@
+.codingProjects, .musicProjects, .project {
+  margin: 50px 0 0;
+}
+
+.projectLink {
+  display: block;
+  margin: 0 0 20px;
+}
+
 img {
-  width: 60%;
+  width: 100%;
   display: block;
 }
