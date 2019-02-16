@@ -26,14 +26,6 @@ See [PLANNING](PLANNING.md) for details on how the project is being designed.
 
 ## Known Bugs
 
-Media Queries:
-
-The page was written for 1280 x 800px screen (MacBook Pro). I attempted to refactor it with media queries to be as smooth as I could get it down to 480px wide.
-
-I don't understand how the ranges work. I can't see it in my head yet.
-
-I did add columns at above 1290px, but I'm not real happy with them.
-
 ## Support and contact details
 
 Scott Bergler: [commandinghands@gmail.com](mailto:commandinghands@gmail.com)
