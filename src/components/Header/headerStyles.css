@@ -1,0 +1,22 @@
+.navigation {
+  font-size: 1.5rem;
+  margin: auto;
+  float: right;
+}
+
+.navigation a, .navigation a:hover, .navigation a:visited {
+  text-decoration: none;
+  color: #eee;
+  margin: 0 20px 0 0;
+}
+
+.siteHeading {
+  color: #eee;
+  letter-spacing: 2px;
+  background-color: #555;
+  background-image: url("../../assets/images/mountainSky.jpeg");
+  background-size: 100%;
+  opacity: 1;
+  z-index: -1;
+  padding: 15px;
+}

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700");
 
 a, article, body, div, h1, h2, h3, h4, h5, h6, li, p, main, section, ul {
   margin: 0;
@@ -13,29 +13,6 @@ body {
 
 a, a:hover, a:visited {
   color: #333;
-}
-
-.navigation {
-  font-size: 1.5rem;
-  margin: auto;
-  float: right;
-}
-
-.navigation a, .navigation a:hover, .navigation a:visited {
-  text-decoration: none;
-  color: #eee;
-  margin: 0 20px 0 0;
-}
-
-.siteHeading {
-  color: #eee;
-  letter-spacing: 2px;
-  background-color: #555;
-  background-image: url("../images/dark-vinyl.jpeg");
-  background-size: 100%;
-  opacity: 1;
-  z-index: -1;
-  padding: 15px;
 }
 
 .container {

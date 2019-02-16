@@ -1,32 +1,23 @@
 .container {
-  width: 80%;
-  margin: auto;
+  font-size: 2.5rem;
 }
 
-header {
-  text-align: center;
+.resumeHead {
+  margin: 40px 0;
 }
 
-.header h1 {
+span {
   font-style: italic;
 }
 
-.work {
-  color: blue;
+.employer {
+  margin: 20px 0 0;
+}
+.job {
+  letter-spacing: 1px;
 }
 
-.work li {
-  color: green;
-}
-
-.color {
-  color:yellow;
-}
-
-p.color {
-  color:grey;
-}
-
-.work span {
-  font-weight: bold;
+.jobTitle {
+  font-weight: 700;
+  display: block;
 }
