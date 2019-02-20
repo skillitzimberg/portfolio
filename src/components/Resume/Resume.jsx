@@ -10,24 +10,30 @@ function Resume(){
       <div className="container">
 
         <div className="resumeHead">
-          <p>commandinghands@gmail.com</p>
           <p>https://www.linkedin.com/in/scott-bergler/</p> 
           <p>https://github.com/skillitzimberg/</p>
-          <p>503.890.5118</p>
         </div>
+
+        <div className="resumeIntro">As an enterprising C#/React developer transitioning from customer service, warehouse logistics, and manufacturing, I’m excited to learn new languages, frameworks, and technologies to design and build simple, intuitive, practical, and durable solutions to customer needs.</div>
 
         <div className="education">
           <h4>EDUCATION</h4>
-
-          <div className="school">
-            <p className="degree">Bachelor of Arts &amp; Letters</p>
-            <span>Portland State University • Portland, OR • 2002</span>
-          </div>
-
+          
           <div className="school">
             <p className="degree">Web Development: C# and React</p>
             <span>Epicodus • Portland, OR • 2019</span>
+            <ul className="studies">
+              <li>Learned HTML, CSS, jQuery, JavaScript, C#, Angular &amp; React in a breakneck 27 weeks.</li>
+              <li>Made Git a habit &amp; friend</li>
+              <li>Focused on collaboration and communication through daily pair programming and frequent team projects</li>
+            </ul>
           </div>
+
+          <div className="school">
+            <p className="degree">Bachelor of Arts &amp; Letters</p>
+            <span>Portland State University • Portland, OR • 2001</span>
+          </div>
+
         </div>
 
         <div className="work">

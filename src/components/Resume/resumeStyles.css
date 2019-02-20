@@ -1,5 +1,9 @@
-.resumeHead {
+.resumeHead, .education {
   margin: 80px 0;
+}
+
+.resumeIntro {
+  text-align: justify;
 }
 
 span {
@@ -19,12 +23,12 @@ span {
   text-align: left;
 }
 
-.work ul {
+.work ul, .school ul {
   margin: 0 50px;
   text-align: left;
 }
 
-.work li {
+.work li, .school li {
   margin: 20px 0;
 }
 
