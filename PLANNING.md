@@ -63,3 +63,4 @@
 - 11:24 AM: solved static content issue - wwwroot was in the wrong directory.
 - 12:22 PM: planning stateful components.
 - 1:30 PM: continuing planning stateful components.
+- 2:08 PM: trying to figure out how to manage state in Admin & Articles - stuck & confused.
