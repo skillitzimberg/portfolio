@@ -51,3 +51,4 @@
 - 9:28 AM: ran debugger in VS Code & the API is now working; no clues about what was wrong that I understand.
 - 9:55 AM: installing Postman to test API GET and POST methods.
 - 10:15 AM: add POST method to ToDo controller.
+- 10:30 AM: test POST method in Postman - successful.
