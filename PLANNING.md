@@ -46,3 +46,4 @@
 [MicroSoft Dotnet API tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio-code);
 - 8:16 AM: working on WebAPI tutorial; see [ASP.NETWebAPI](https://github.com/skillitzimberg/ASP.NETCoreWebAPI) for commit log.
 - 8:31 AM: add GET methods to TodoController.cs.
+- 8:58 AM: troubleshooting possible ssl issue.
