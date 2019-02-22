@@ -4,15 +4,8 @@ import Header from "../Header/Header";
 import { masterPostList } from "./masterPostList";
 import "./blogStyles.css";
 
-class Articles extends React.Component {
-  constructor(props) {
-    super(props);
+function Articles(){
 
-    this.state = {
-      postList: masterPostList,
-      selectedPost: null
-    }
-  }
   return (
     <div>
       <Header pageHead={"Brain Dump"}/>
