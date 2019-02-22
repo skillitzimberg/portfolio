@@ -1,10 +1,11 @@
 import React from "react";
+import PropTypes from 'prop-types';
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
-import { postList } from "./postList";
+// import { postList } from "./postList";
 import "./blogStyles.css";
 
-function Articles(){
+function Articles(props){
 
   return (
     <div>
@@ -15,7 +16,7 @@ function Articles(){
     
           <section className="articleList">
             <h3>Blog Posts</h3>
-            {postList.map((post, index) =>
+            {props.postList.map((post, index) =>
               <p><Link to="/" key={index}>{post.date}</Link></p>
             )}
           </section>
@@ -25,5 +26,9 @@ function Articles(){
     </div>
   );
 }
+
+Articles.propTypes = {
+  postList: PropTypes.array
+};
 
 export default Articles;
