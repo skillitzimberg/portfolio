@@ -47,3 +47,4 @@
 - 8:16 AM: working on WebAPI tutorial; see [ASP.NETWebAPI](https://github.com/skillitzimberg/ASP.NETCoreWebAPI) for commit log.
 - 8:31 AM: add GET methods to TodoController.cs.
 - 8:58 AM: troubleshooting possible ssl issue.
+- 9:18 AM: continue troubleshooting possible ssl issue.
