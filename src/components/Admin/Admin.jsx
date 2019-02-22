@@ -1,13 +1,13 @@
 import React from "react";
 import Header from "../Header/Header";
-import { masterPostList } from "./masterPostList";
+import { postList } from "./postList";
 
 class Articles extends React.Component {
   constructor(props) {
     super(props);
 
     this.state = {
-      postList: masterPostList,
+      postList: postList,
       selectedPost: null
     }
   }

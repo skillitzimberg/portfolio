@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
-import { masterPostList } from "./masterPostList";
+import { postList } from "./postList";
 import "./blogStyles.css";
 
 function Articles(){
@@ -15,7 +15,7 @@ function Articles(){
     
           <section className="articleList">
             <h3>Blog Posts</h3>
-            {masterPostList.map((post, index) =>
+            {postList.map((post, index) =>
               <p><Link to="/" key={index}>{post.date}</Link></p>
             )}
           </section>
