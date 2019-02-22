@@ -48,3 +48,4 @@
 - 8:31 AM: add GET methods to TodoController.cs.
 - 8:58 AM: troubleshooting possible ssl issue.
 - 9:18 AM: continue troubleshooting possible ssl issue.
+- 9:28 AM: ran debugger in VS Code & the API is now working; no clues about what was wrong that I understand.
