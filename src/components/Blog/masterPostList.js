@@ -1,4 +1,4 @@
-export const postList = [
+export const masterPostList = [
   {
     title: "The Blog Begins",
     date: "August 21, 2018",

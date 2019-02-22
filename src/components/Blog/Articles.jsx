@@ -1,11 +1,18 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Header from "../Header/Header";
-import { postList } from "./postList";
+import { masterPostList } from "./masterPostList";
 import "./blogStyles.css";
 
-function Articles(){
+class Articles extends React.Component {
+  constructor(props) {
+    super(props);
 
+    this.state = {
+      postList: masterPostList,
+      selectedPost: null
+    }
+  }
   return (
     <div>
       <Header pageHead={"Brain Dump"}/>
@@ -15,7 +22,7 @@ function Articles(){
     
           <section className="articleList">
             <h3>Blog Posts</h3>
-            {postList.map((post, index) =>
+            {masterPostList.map((post, index) =>
               <p><Link to="/" key={index}>{post.date}</Link></p>
             )}
           </section>

@@ -5,12 +5,13 @@ import Moment from 'moment';
 
 function NewPostForm(props){
   let _title = null;
-  let _date = null;
   let _article = null;
 
   function handleNewPostFormSubmission(event) {
     event.preventDefault();
+    
     props.onNewPostCreation({title: _title.value, date: new Moment(), article: _article.value, id: v4()});
+
     _title.value = '';
     _article.value = '';
   }
@@ -25,7 +26,7 @@ function NewPostForm(props){
           ref={(input) => {_title = input;}}/>
         <textarea
           id='article'
-          placeholder='Describe your article.'
+          placeholder="What's the story?"
           ref={(textarea) => {_article = textarea;}}/>
         <button type='submit'>Add to Blog</button>
       </form>
