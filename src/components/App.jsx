@@ -7,17 +7,26 @@ import Projects from "./Projects/Projects";
 import Resume from "./Resume/Resume";
 import "../assets/css/styles.css";
 
-function App(){
+class App extends React.Component {
 
-  return (
-    <Switch>
-      <Route exact path="/" component={Main} />
-      <Route exact path="/blog" component={Articles} />
-      <Route exact path="/projects" component={Projects} />
-      <Route exact path="/resume" component={Resume} />
-      <Route component={Error404} />
-    </Switch>
-  );
+  constructor(props) {
+    super(props);
+    this.state = {
+      masterTicketList: []
+    };
+  }
+
+  render(){
+    return (
+      <Switch>
+        <Route exact path="/" component={Main} />
+        <Route exact path="/blog" component={Articles} />
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/resume" component={Resume} />
+        <Route component={Error404} />
+      </Switch>
+    );
+  }
 }
 
 export default App;
