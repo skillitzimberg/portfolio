@@ -61,3 +61,4 @@
 - 10:59 AM: add site.js.
 - 11:17 AM: troubleshooting launch settings: can't get static content to load.
 - 11:24 AM: solved static content issue - wwwroot was in the wrong directory.
+- 12:22 AM: planning stateful components.
