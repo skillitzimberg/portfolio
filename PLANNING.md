@@ -1,5 +1,35 @@
 ![](portfolio-diagram.png)
 
+## Targets
+
+### full mobile-first design
+[FreeCode Camp Breakpoint Guide](https://medium.freecodecamp.org/the-100-correct-way-to-do-css-breakpoints-88d6a5ba1862)
+
+#### potential breakpoints
+- 320px (Current styling/layout is targeted for this breakpoint)
+- 360px
+- 375px
+- 411px
+- 414px
+- 768px
+- 1024px
+- 1280px
+
+### relational database
+- sql
+- blog entries
+- resume data
+- cover letters (with login set for addressee)
+- users
+
+### C# API
+- persistent blog entries
+- returns JSON
+
+### user authentication
+- admin log in
+- user log in for blog comments
+
 ## Work log
 - 11:15 AM: updating component diagram to add Project.
 - 2:45 PM: Researching mobile first design before the site gets complicated by too many styles.
