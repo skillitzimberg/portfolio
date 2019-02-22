@@ -57,3 +57,4 @@
 - 10:42 AM: add DELETE method to ToDo controller.
 - 10:48 AM: test DELETE method in ToDo controller.
 - 10:52 AM: configure the app to serve static files and enable default file mapping.
+- 10:55 AM: add wwwroot directory, index.html & content.
