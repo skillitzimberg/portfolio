@@ -1,5 +1,6 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
+import Admin from "./Admin/Admin";
 import Articles from "./Blog/Articles";
 import Error404 from "./Error404";
 import Main from "./Main";
@@ -21,7 +22,7 @@ class App extends React.Component {
     return (
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/admin" render={()=><Admin onNewPostCreation={this.handleNewPostCreation} />}/>
+        <Route exact path="/admin" render={()=><Admin onNewPostCreation={this.handleNewPostCreation} />} />
         <Route exact path="/blog" render={()=><Articles postList={this.state.masterPostList} />} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />

@@ -1,9 +1,11 @@
 import React from "react";
 import PropTypes from 'prop-types';
 import Header from "../Header/Header";
+import NewPostForm from "./NewPostForm";
+import Articles from "../Blog/Articles";
 // import { postList } from "./postList";
 
-function Admin() {
+function Admin(props) {
 
   return (
     <div>
