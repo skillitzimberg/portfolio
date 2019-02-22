@@ -9,7 +9,7 @@ function NewPostForm(props){
 
   function handleNewPostFormSubmission(event) {
     event.preventDefault();
-    
+
     props.onNewPostCreation({title: _title.value, date: new Moment(), article: _article.value, id: v4()});
 
     _title.value = '';
