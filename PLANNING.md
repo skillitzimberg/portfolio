@@ -55,3 +55,4 @@
 - 10:30 AM: add PUT method to ToDo controller.
 - 10:40 AM: test PUT method to ToDo controller.
 - 10:42 AM: add DELETE method to ToDo controller.
+- 10:48 AM: test DELETE method in ToDo controller.
