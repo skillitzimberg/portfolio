@@ -44,3 +44,4 @@
 - 7:37 AM: researching how to build a ASP.NET Core WebAPI
 [MicroSoft Dotnet API's](https://dotnet.microsoft.com/apps/aspnet/apis);
 [MicroSoft Dotnet API tutorial](https://docs.microsoft.com/en-us/aspnet/core/tutorials/first-web-api?view=aspnetcore-2.2&tabs=visual-studio-code);
+- 8:16 AM: working on WebAPI tutorial; see [ASP.NETWebAPI](https://github.com/skillitzimberg/ASP.NETCoreWebAPI) for commit log.
