@@ -19,6 +19,7 @@ function Articles(){
               <p><Link to="/" key={index}>{post.date}</Link></p>
             )}
           </section>
+
         </main>
       </div>
     </div>
