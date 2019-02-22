@@ -12,21 +12,30 @@ class App extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
-      masterTicketList: []
+      masterPostList: []
     };
+    this.handleNewPostCreation = this.handleNewPostCreation.bind(this)
   }
 
   render(){
     return (
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/blog" component={Articles} />
+        <Route exact path="/admin" render={()=><Admin onNewPostCreation={this.handleNewPostCreation} />}/>
+        <Route exact path="/blog" render={()=><Articles postList={this.state.masterPostList} />} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />
         <Route component={Error404} />
       </Switch>
     );
   }
+
+  handleNewPostCreation() {
+    let newMasterPostList = this.state.masterPostList.slice();
+    newMasterPostList.push(newPost);
+    this.setState({masterPostList: newMasterPostList});
+  }
+
 }
 
 export default App;
