@@ -59,3 +59,4 @@
 - 10:52 AM: configure the app to serve static files and enable default file mapping.
 - 10:55 AM: add wwwroot directory, index.html & content.
 - 10:59 AM: add site.js.
+- 11:17 AM: troubleshooting launch settings: can't get static content to load.
