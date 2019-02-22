@@ -1,31 +1,20 @@
 import React from "react";
 import Header from "../Header/Header";
-import { postList } from "./postList";
+// import { postList } from "./postList";
 
-class Articles extends React.Component {
-  constructor(props) {
-    super(props);
+function Admin() {
 
-    this.state = {
-      postList: postList,
-      selectedPost: null
-    }
-  }
+  return (
+    <div>
+    <Header pageHead={"Admin"} />
+    <Articles />
+    <NewPostForm onNewPostCreation={props.onNewPostCreation}/>
+    </div>
+  );
 
-  render() {
-    return (
-      <div>
-      <Header pageHead={"Admin"} />
-      <Articles/>
-      <NewPostForm/>
-      </div>
-    );
-
-  }
-
-  handleNewPostCreation() {
-    
-  }
+  Admin.propTypes = {
+    onNewPostCreation: PropTypes.func
+  };
 
 }
 
