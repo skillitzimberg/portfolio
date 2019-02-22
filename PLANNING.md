@@ -52,3 +52,4 @@
 - 9:55 AM: installing Postman to test API GET and POST methods.
 - 10:15 AM: add POST method to ToDo controller.
 - 10:30 AM: test POST method in Postman - successful.
+- 10:30 AM: add PUT method to ToDo controller.
