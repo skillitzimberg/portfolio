@@ -65,3 +65,4 @@
 - 1:30 PM: continuing planning stateful components.
 - 2:08 PM: trying to figure out how to manage state in Admin & Articles - stuck & confused.
 - 3:00 PM: still working on getting state set up.
+- 3:48 PM: troubleshooting errors: key is not a prop (?) & Objects are not valid as a React child (moment.js issues).'
