@@ -22,7 +22,7 @@ class App extends React.Component {
     return (
       <Switch>
         <Route exact path="/" component={Main} />
-        <Route exact path="/admin" render={()=><Admin onNewPostCreation={this.handleNewPostCreation} />} />
+        <Route exact path="/admin" render={()=><Admin postList={this.state.masterPostList} onNewPostCreation={this.handleNewPostCreation} />} />
         <Route exact path="/blog" render={()=><Articles postList={this.state.masterPostList} />} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />

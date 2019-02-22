@@ -10,7 +10,7 @@ function Admin(props) {
   return (
     <div>
       <Header pageHead={"Admin"} />
-      <Articles />
+      <Articles postList={props.postList} />
       <NewPostForm onNewPostCreation={props.onNewPostCreation}/>
     </div>
   );
@@ -18,6 +18,7 @@ function Admin(props) {
 }
 
 Admin.propTypes = {
+  postList: PropTypes.array,
   onNewPostCreation: PropTypes.func
 };
 
