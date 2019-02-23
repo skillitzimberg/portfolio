@@ -21,7 +21,7 @@ function Articles(props){
               <Post title={post.title}
                 date={post.date}
                 article={post.article}
-                key={index}/>
+                key={post.id}/>
             )}
           </section>
 
