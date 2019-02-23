@@ -67,3 +67,4 @@
 - 3:00 PM: still working on getting state set up.
 - 3:48 PM: troubleshooting errors: key is not a prop (?) & Objects are not valid as a React child (moment.js issues).'
 - 7:22 PM: troubleshooting CSS problem for Admin & Blog.
+- 8:35 PM: working on A/B testing CSS stylesheets.
