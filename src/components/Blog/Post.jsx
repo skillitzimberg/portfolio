@@ -13,8 +13,9 @@ function Post(props){
 
 Post.propTypes = {
   title: PropTypes.string.isRequired,
-  date: PropTypes.string.isRequired,
-  article: PropTypes.string.isRequired
+  date: PropTypes.object.isRequired,
+  article: PropTypes.string.isRequired,
+  key: PropTypes.number
 };
 
 export default Post;

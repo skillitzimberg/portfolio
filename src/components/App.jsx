@@ -31,7 +31,7 @@ class App extends React.Component {
     );
   }
 
-  handleNewPostCreation() {
+  handleNewPostCreation(newPost) {
     let newMasterPostList = this.state.masterPostList.slice();
     newMasterPostList.push(newPost);
     this.setState({masterPostList: newMasterPostList});
