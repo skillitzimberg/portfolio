@@ -16,7 +16,7 @@ class App extends React.Component {
     this.state = {
       masterPostList: []
     };
-    this.handleNewPostCreation = this.handleNewPostCreation.bind(this)
+    this.handleNewPostCreation = this.handleNewPostCreation.bind(this);
   }
 
   render(){

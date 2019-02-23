@@ -230,7 +230,7 @@ import NewTicketForm from './NewTicketForm';
 
 Create NewTicketForm component
 ```
-import React from 'react';
+import React from "react";
 
 function NewTicketForm(){
   return (
@@ -258,7 +258,7 @@ export default NewTicketForm;
 
 Import Link to Header.jsx & add Link elements
 ```
-import React from 'react';
+import React from "react";
 import { Link } from 'react-router-dom';
 
 function Header(){

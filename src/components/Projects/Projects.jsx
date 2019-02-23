@@ -13,28 +13,28 @@ function Projects(){
       <div className="container">
         <section className="codingProjects">
           <h3>Coding Projects</h3>
-            {codingProjects.map((project, index) =>
-              <Project 
-                name={project.name}
-                url={project.url}
-                description={project.description}
-                image={project.image}
-                key={index}
-              />
-            )}
+          {codingProjects.map((project, index) =>
+            <Project 
+              name={project.name}
+              url={project.url}
+              description={project.description}
+              image={project.image}
+              key={index}
+            />
+          )}
         </section>
     
         <section className="musicProjects">
           <h3>Music Projects</h3>
-            {musicProjects.map((project, index) =>
-              <Project 
-                name={project.name}
-                url={project.url}
-                description={project.description}
-                image={project.image}
-                key={index}
-              />
-            )}
+          {musicProjects.map((project, index) =>
+            <Project 
+              name={project.name}
+              url={project.url}
+              description={project.description}
+              image={project.image}
+              key={index}
+            />
+          )}
         </section>
       </div>
     </div>
