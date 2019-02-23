@@ -1,5 +1,5 @@
 {
-  "name": "Portfolio",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "A personal portfolio & blog about code related experiences.",
   "main": "index.js",
@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "webpack-dev-server",
     "lint": "eslint 'src/**' 'src/**/**'; exit 0",
-    "lint-fix": "eslint 'src/**' 'src/**/**' --fix; exit 0"
+    "lint-fix": "eslint 'src/**' 'src/**/**' --fix; exit 0",
+    "lint-css": "stylelint 'src/*.css'"
   },
   "repository": {
     "type": "git",
@@ -43,6 +44,8 @@
     "html-webpack-plugin": "^2.29.0",
     "react-hot-loader": "^3.0.0-beta.7",
     "style-loader": "^0.23.1",
+    "stylelint": "^9.10.1",
+    "stylelint-config-standard": "^18.2.0",
     "url-loader": "^0.6.2",
     "webpack": "^3.4.0",
     "webpack-dev-server": "^2.5.0"
