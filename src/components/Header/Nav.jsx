@@ -8,6 +8,7 @@ function Nav(){
       <Link to="/blog">Blog</Link>
       <Link to="/projects">Projects</Link>
       <Link to="/resume">Resume</Link>
+      <Link to="/admin">Admin</Link>
     </div>
   );
 }

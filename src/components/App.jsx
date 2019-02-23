@@ -1,7 +1,7 @@
 import React from "react";
 import { Switch, Route } from "react-router-dom";
 import Admin from "./Admin/Admin";
-import Articles from "./Blog/Articles";
+import Blog from "./Blog/Blog";
 import Error404 from "./Error404";
 import Main from "./Main";
 import Projects from "./Projects/Projects";
@@ -23,7 +23,7 @@ class App extends React.Component {
       <Switch>
         <Route exact path="/" component={Main} />
         <Route exact path="/admin" render={()=><Admin postList={this.state.masterPostList} onNewPostCreation={this.handleNewPostCreation} />} />
-        <Route exact path="/blog" render={()=><Articles postList={this.state.masterPostList} />} />
+        <Route exact path="/blog" render={()=><Blog postList={this.state.masterPostList} />} />
         <Route exact path="/projects" component={Projects} />
         <Route exact path="/resume" component={Resume} />
         <Route component={Error404} />
