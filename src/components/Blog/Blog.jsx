@@ -8,9 +8,11 @@ import "./blogStyles.css";
 function Blog(props){
 
   return (
-    <div className="container">
+    <div>
       <Header pageHead={"Brain Dump"}/>
-      <Articles postList={props.postList} />
+        <div className="container">
+          <Articles postList={props.postList} />
+        </div>
     </div>
   );
 }
