@@ -6,6 +6,7 @@ import Error404 from "./Error404";
 import Main from "./Main";
 import Projects from "./Projects/Projects";
 import Resume from "./Resume/Resume";
+import "../assets/css/normalize.css";
 import "../assets/css/styles.css";
 
 class App extends React.Component {

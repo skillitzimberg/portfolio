@@ -11,10 +11,8 @@ function Projects(){
     <div>
       <Header pageHead={"Projects"}/>
       <div className="container">
-        <main>
-
-          <section className="codingProjects">
-            <h3>Coding Projects</h3>
+        <section className="codingProjects">
+          <h3>Coding Projects</h3>
             {codingProjects.map((project, index) =>
               <Project 
                 name={project.name}
@@ -24,10 +22,10 @@ function Projects(){
                 key={index}
               />
             )}
-          </section>
-      
-          <section className="musicProjects">
-            <h3>Music Projects</h3>
+        </section>
+    
+        <section className="musicProjects">
+          <h3>Music Projects</h3>
             {musicProjects.map((project, index) =>
               <Project 
                 name={project.name}
@@ -37,9 +35,7 @@ function Projects(){
                 key={index}
               />
             )}
-          </section>
-          
-        </main>
+        </section>
       </div>
     </div>
   );

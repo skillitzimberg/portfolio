@@ -33,7 +33,6 @@ function Resume(){
             <p className="degree">Bachelor of Arts &amp; Letters</p>
             <span>Portland State University • Portland, OR • 2001</span>
           </div>
-
         </div>
 
         <div className="work">
