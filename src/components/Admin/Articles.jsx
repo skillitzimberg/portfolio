@@ -1,5 +1,5 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import Post from "../Blog/Post";
 // import { postList } from "./postList";
 
@@ -8,7 +8,7 @@ function Articles(props) {
   return (
     <div>
       <h3>Blog Posts</h3>
-      {props.postList.map((post, index) =>
+      {props.postList.map((post) =>
         <Post 
           title={post.title}
           date={post.date}
